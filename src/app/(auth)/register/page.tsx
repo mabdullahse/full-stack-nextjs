@@ -1,3 +1,6 @@
-export default function Page() {
-    return <h1>Hello, Next.js!</h1>;
-  }
+// register/page.tsx
+import AuthForm from "@/components/AuthForm";
+
+export default function Register() {
+  return <AuthForm mode="register" />;
+}

@@ -1,6 +1,6 @@
+// signin/page.tsx
+import AuthForm from "@/components/AuthForm";
 
-
-
-export default function Page() {
-    return <h1>Hello, Next.js!</h1>;
-  }
+export default function Register() {
+  return <AuthForm mode="signin" />;
+}
